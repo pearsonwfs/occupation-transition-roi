@@ -1,0 +1,33 @@
+import {
+  Theme,
+  Typography,
+} from '@pearsonwfs/component-library';
+import { useEffect } from 'react';
+import { Wrapper, ReplaceThisComponent } from './{{pascalNameOfApp}}.styles';
+import { {{pascalNameOfApp}}Props } from './{{pascalNameOfApp}}.types';
+
+export const {{pascalNameOfApp}} = ({
+  accessToken = 'accessToken',
+}: {{pascalNameOfApp}}Props) => {
+  useEffect(() => {
+    console.log('Write custom logic on app load here');
+  }, []);
+
+  return (
+    <Theme theme="workforce">
+      {/* DO NOT DELETE THE THEME WRAPPER */}
+      {/* EVERYTHING INSIDE CAN BE REPLACED */}
+      <Wrapper>
+        <ReplaceThisComponent>
+          <Typography
+            component="h1"
+            variant="displayXLBold"
+            hasDefaultParagraphSpacing
+          >
+            Replace me
+          </Typography>
+        </ReplaceThisComponent>
+      </Wrapper>
+    </Theme>
+  );
+};

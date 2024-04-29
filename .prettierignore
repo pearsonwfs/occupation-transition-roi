@@ -1,0 +1,6 @@
+manifests
+sandbox
+node_modules
+env
+dist
+coverage

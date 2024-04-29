@@ -1,0 +1,32 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  check-packages:
+    uses: Faethm-ai/project-bootstrap/.github/workflows/node.check-packages.yaml@v1
+    with:
+      node-version: 20.10.0
+    secrets: inherit
+
+  lint:
+    uses: Faethm-ai/project-bootstrap/.github/workflows/node.lint.yaml@v1
+    with:
+      node-version: 20.10.0
+    secrets: inherit
+
+  test:
+    uses: Faethm-ai/project-bootstrap/.github/workflows/node.test.yaml@v1
+    with:
+      node-version: 20.10.0
+    secrets: inherit
+
+  semgrep:
+    uses: Faethm-ai/project-bootstrap/.github/workflows/secops.semgrep.yaml@v1
+    secrets: inherit
+
+  # snyk:
+  #   uses: Faethm-ai/project-bootstrap/.github/workflows/node.snyk.yaml@v1
+  #   secrets: inherit

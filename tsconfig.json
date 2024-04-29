@@ -1,0 +1,72 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "paths": {
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "hooks/*": [
+        "src/hooks/*"
+      ],
+      "constants/*": [
+        "src/constants/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "styles/*": [
+        "src/styles/*"
+      ],
+      "screens/*": [
+        "src/screens/*"
+      ],
+      "requests/*": [
+        "src/requests/*"
+      ],
+      "apis/*": [
+        "src/redux/api/*"
+      ],
+      "apps/*": [
+        "src/apps/*"
+      ],
+    },
+    "types": [
+      "jest",
+      "node",
+      "webpack",
+      "webpack-dev-server"
+    ]
+  },
+  "include": [
+    "src",
+    "typings",
+    "webpack.config.ts",
+    "jest.config.ts",
+  ],
+  "exclude": [
+    "*/node_modules/*",
+    "dist",
+    "../../../node_modules/",
+  ],
+  "typeRoots": [
+    "node_modules/@types",
+    "typings",
+  ]
+}
