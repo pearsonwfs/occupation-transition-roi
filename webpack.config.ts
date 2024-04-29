@@ -68,10 +68,10 @@ const baseConfig: Configuration = {
     publicPath: 'auto',
   },
   plugins: [
-    new ModuleFederationPlugin({
-      name: 'change_to_name_of_repo',
+    new ModuleFederationPlugin({ name: 'occupationTransitionRoi',
       filename: 'remoteEntry.js',
       exposes: {
+'./OccupationTransitionRoi': './src/apps/OccupationTransitionRoi/OccupationTransitionRoi',
 // Insert your apps here
         './SampleApp': './src/apps/SampleApp/SampleApp',},
       shared: {
