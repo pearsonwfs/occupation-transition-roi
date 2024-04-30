@@ -1,12 +1,11 @@
 import { FC, useEffect, useState } from 'react';
 import { Navigation, Wrapper } from './App.styles';
 import { Grid, NavigationMenu } from '@pearsonwfs/component-library';
-import { SampleApp } from '../apps/SampleApp/SampleApp';
 import { OccupationTransitionRoi } from '../apps/OccupationTransitionRoi/OccupationTransitionRoi';
 
 const App: FC = () => {
   const apiKey = window?._env_?.API_KEY ?? 'accessToken';
-  const [currentApp, setCurrentApp] = useState('sample-app');
+  const [currentApp, setCurrentApp] = useState('OccupationTransitionRoi');
 
   useEffect(() => {
     document.title = currentApp;
@@ -28,20 +27,11 @@ const App: FC = () => {
             },
             {
               href: '#',
-              name: 'Sample App',
-              onClick: () => setCurrentApp('sample-app'),
-              selected: currentApp === 'sample-app',
+              name: 'OccupationTransitionRoi',
+              onClick: () => setCurrentApp('OccupationTransitionRoi'),
+              selected: currentApp === 'OccupationTransitionRoi',
               separator: false,
             },
-            // PLOP NAVIGATION - DO NOT REMOVE THIS LINE
-          ,{
-            href: '#',
-            name: 'OccupationTransitionRoi',
-            onClick: () => setCurrentApp('OccupationTransitionRoi'),
-            selected: currentApp === 'OccupationTransitionRoi',
-            separator: false,
-          }
-
           ]}
           logo={{
             variant: 'api-platform',
@@ -51,8 +41,9 @@ const App: FC = () => {
       </Navigation>
 
       <Grid variant="with-navigation">
-        {currentApp === 'sample-app' && <SampleApp accessToken={apiKey} />}
-{currentApp === 'OccupationTransitionRoi' && <OccupationTransitionRoi accessToken={apiKey}/>}
+        {currentApp === 'OccupationTransitionRoi' && (
+          <OccupationTransitionRoi accessToken={apiKey} />
+        )}
       </Grid>
     </Wrapper>
   );
