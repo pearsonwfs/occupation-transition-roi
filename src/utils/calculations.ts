@@ -1,4 +1,4 @@
-export const calcProfitGenerated = (
+export const calcAutomationRiskAvoidance = (
   profit: number,
   aiMaturity: string,
   automationRiskThreshold: number,
@@ -32,12 +32,6 @@ export const calcProfitGenerated = (
   const profitGenerated = adjustedRisk * -1 * profit;
 
   return { profitGenerated };
-
-  //   console.log("adjusted_risk: ", adjustedRisk);
-  //   console.log('profit_generated: ', profitGenerated);
-  // } catch (error) {
-  //   console.error('Error:', error);
-  // }
 };
 
 export const calculateCompanySpecificImpact = (
@@ -77,7 +71,4 @@ export const calculateCompanySpecificImpact = (
     (companyIndustryImpact + companySizeImpact) * profit;
 
   return companySpecificImpact;
-  // } catch (error) {
-  //     console.error('Error:', error);
-  // }
 };

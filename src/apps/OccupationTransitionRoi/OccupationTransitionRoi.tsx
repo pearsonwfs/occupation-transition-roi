@@ -14,6 +14,7 @@ import { industries as callIndustries } from '../../apis/industries';
 import { BarGraph } from '../../charts/bar_graph';
 import { industryTrendingSkills as callIndustryTrendingSkills } from '../../apis/trandingSkills';
 import { skillFutureImportance } from '../../apis/futureSkillImportance';
+import { calcAutomationRiskAvoidance } from "utils/calculations";
 
 const availableIndustries = [
   'human health and social work activities',
@@ -72,14 +73,6 @@ export const OccupationTransitionRoi = ({
     }
   }, [industryTrendingSkills]);
 
-  // useEffect(() => {
-  //   setDetails(taskTimeByOccupation[0]);
-  // }, []);
-  //
-  // useEffect(() => {
-  //   console.log(industry);
-  // }, [industry]);
-
   const industriesToSegmentedItems = () => {
     return availableIndustries.map((size: string) => {
       return {
@@ -97,6 +90,24 @@ export const OccupationTransitionRoi = ({
       value: `${level}`,
     };
   });
+
+  const graphData = useMemo(() => {
+    const automationRiskThreshold =
+      futureSkillImportances.future_proof_threshold;
+    const skillScores =
+      futureSkillImportances.skill_future_importance_scores.map(
+        (skill: { future_importance_score: number }) =>
+          skill.future_importance_score
+      );
+    const automationRiskAvoidance = calcAutomationRiskAvoidance(
+      profit,
+      aiMaturity,
+      automationRiskThreshold,
+      skillScores
+    );
+    const companySpecificImpact = 0;
+    return [automationRiskAvoidance, 0, 0, companySpecificImpact];
+  }, []);
 
   return (
     <Theme theme="workforce">
