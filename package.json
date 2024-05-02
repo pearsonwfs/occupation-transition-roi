@@ -28,6 +28,8 @@
     "deep-equal": "^2.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "highcharts": "^11.0.1",
+    "highcharts-react-official": "^3.2.0",
     "react-router-dom": "6.21.1",
     "styled-components": "^5.3.11",
     "styled-normalize": "8.1.0"

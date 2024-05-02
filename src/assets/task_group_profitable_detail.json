@@ -1,0 +1,866 @@
+[
+ {
+   "Industry": "Technology",
+   "Task Group": "Adjust equipment to ensure adequate performance.",
+   "AI Task Reduction": "-80%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Adjust medical equipment to ensure adequate performance.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Administer basic health care or medical treatments.",
+   "AI Task Reduction": "-89%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Administer diagnostic tests to assess patient health.",
+   "AI Task Reduction": "-67%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Administer therapeutic treatments.",
+   "AI Task Reduction": "-83%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Advise others on educational or vocational matters.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Advise others on workplace health or safety issues.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Analyze biological or chemical substances or related data.",
+   "AI Task Reduction": "50%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Analyze data to improve operations.",
+   "AI Task Reduction": "100%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Analyze environmental or geospatial data.",
+   "AI Task Reduction": "100%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Analyze health or medical data.",
+   "AI Task Reduction": "100%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Apply protective solutions or coatings.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Assemble equipment or components.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Assess characteristics of land or property.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Assess student capabilities, needs, or performance.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Assist healthcare practitioners during medical procedures.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Assist individuals with special needs.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Assist others to access additional services or resources.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Assist scientists, scholars, or technical specialists with projects or research.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Clean medical equipment or facilities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Clean tools, equipment, facilities, or work areas.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Clean workpieces, finished products, or other objects.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Collaborate in the development of educational programs.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Collect environmental or biological samples.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Collect fares or payments.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Collect information about patients or clients.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Communicate with others about operational plans or activities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Compile records, documentation, or other data.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Confer with healthcare or other professionals about patient care.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Connect components or supply lines to equipment or tools.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Coordinate group, community, or public activities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Coordinate with others to resolve problems.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Counsel others about personal matters.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Create visual designs or displays.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Cut trees or other vegetation.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Design databases.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Design materials or devices.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Determine operational methods or procedures.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Determine resource needs of projects or operations.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Determine values or prices of goods or services.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Develop educational programs, plans, or procedures.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Develop operational or technical procedures or standards.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Develop organizational or program goals or objectives.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Develop organizational policies, systems, or processes.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Develop recipes or menus.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Develop research plans or methodologies.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Develop safety standards, policies, or procedures.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Direct organizational operations, activities, or procedures.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Direct scientific or technical activities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Direct security or safety activities or operations.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Dispose of waste or debris.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Escort others.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Estimate project development or operational costs.",
+   "AI Task Reduction": "0%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Evaluate designs, specifications, or other technical data.",
+   "AI Task Reduction": "50%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Evaluate patient or client condition or treatment options.",
+   "AI Task Reduction": "33%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Evaluate personnel capabilities or performance.",
+   "AI Task Reduction": "33%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Evaluate production inputs or outputs.",
+   "AI Task Reduction": "50%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Evaluate programs, practices, or processes.",
+   "AI Task Reduction": "100%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Evaluate the characteristics, usefulness, or performance of products or technologies.",
+   "AI Task Reduction": "100%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Evaluate the quality or accuracy of data.",
+   "AI Task Reduction": "33%",
+   "Profitable": true
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Examine people or animals to assess health conditions or physical characteristics.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Execute financial transactions.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Explain medical information to patients or family members.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Explain regulations, policies, or procedures.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Explain technical details of products or services.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Fabricate medical devices.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Fit assistive devices to patients or clients.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Inspect commercial, industrial, or production systems or equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Inspect completed work or finished products.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Inspect facilities or equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Inspect vehicles.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Install commercial or production equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Interview people to obtain information.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Load products, materials, or equipment for transportation or further processing.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Maintain current knowledge in area of expertise.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Maintain health or medical records.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Maintain medical equipment or instruments.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Maintain operational records.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Maintain sales or financial records.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Maintain tools or equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Maintain vehicles in working condition.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Mark materials or objects for identification.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Measure physical characteristics of materials, products, or equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Monitor equipment operation.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Monitor health conditions of humans or animals.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Monitor individual behavior or performance.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Monitor operations to ensure adequate performance.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Monitor resources or inventories.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Monitor safety or security of work areas, facilities, or properties.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Move materials, equipment, or supplies.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Operate agricultural or forestry equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Operate computer systems or computerized equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Operate laboratory or field equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Operate medical equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Operate pumping systems or equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Operate transportation equipment or vehicles.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Package objects.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Perform administrative or clerical activities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Plan work activities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Position workpieces or materials on equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Prepare foods or beverages.",
+   "AI Task Reduction": "-75%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Prepare health or medical documents.",
+   "AI Task Reduction": "-67%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Prepare informational or instructional materials.",
+   "AI Task Reduction": "-92%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Prepare medical equipment or work areas for use.",
+   "AI Task Reduction": "-83%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Prepare proposals or grant applications.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Prepare reports of operational or procedural activities.",
+   "AI Task Reduction": "-75%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Prepare specimens or materials for testing.",
+   "AI Task Reduction": "-50%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Present research or technical information.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Promote products, services, or programs.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Provide food or beverage services.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Provide general assistance to others, such as customers, patrons, or motorists.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Provide information to guests, clients, or customers.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Provide support or encouragement to others.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Purchase goods or services.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Read documents or materials to inform work processes.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Reconcile financial data.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Remove workpieces from production equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Repair tools or equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Replenish inventories of materials, equipment, or products.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Research agricultural processes or practices.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Research biological or ecological phenomena.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Research healthcare issues.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Schedule appointments.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Schedule operational activities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Select materials or equipment for operations or projects.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Sell products or services.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Serve on organizational committees.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Set up classrooms, facilities, educational materials, or equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Set up computer systems, networks, or other information systems.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Set up equipment.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Sew garments or materials.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Sort materials or products.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Stock supplies or products.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Supervise personnel activities.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Teach academic or vocational subjects.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Teach life skills.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Test characteristics of materials or products.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Technology",
+   "Task Group": "Test performance of equipment or systems.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Train others on health or medical topics.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Train others on operational or work procedures.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Train others to use equipment or products.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Medical",
+   "Task Group": "Transport patients or clients.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Verify personal information.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ },
+ {
+   "Industry": "Education",
+   "Task Group": "Write material for artistic or commercial purposes.",
+   "AI Task Reduction": "0%",
+   "Profitable": false
+ }
+]

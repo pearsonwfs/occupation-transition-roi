@@ -1,0 +1,17 @@
+[
+ {
+   "Industry": "Education",
+   "labor productivity": "7%",
+   "incremental innovation": "3%"
+ },
+ {
+   "Industry": "Medical",
+   "labor productivity": "13%",
+   "incremental innovation": "43%"
+ },
+ {
+   "Industry": "Technology",
+   "labor productivity": "9%",
+   "incremental innovation": "35%"
+ }
+]
