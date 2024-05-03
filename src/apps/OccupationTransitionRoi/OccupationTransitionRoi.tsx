@@ -1,27 +1,28 @@
-import {
-  FeedbackState,
-  SegmentedControl,
-  TextInput,
-  Theme,
-  Typography,
-} from '@pearsonwfs/component-library';
+import { Theme } from '@pearsonwfs/component-library';
 import { useEffect, useMemo, useState } from 'react';
 import { Wrapper } from './OccupationTransitionRoi.styles';
 import { OccupationTransitionRoiProps } from './OccupationTransitionRoi.types';
-import { occupationDetails } from '../../apis/occupationDetails';
-import taskTimeByOccupation from '../../assets/combined.json';
 import { industries as callIndustries } from '../../apis/industries';
-import { BarGraph } from '../../charts/bar_graph';
 import { industryTrendingSkills as callIndustryTrendingSkills } from '../../apis/trandingSkills';
 import { skillFutureImportance } from '../../apis/futureSkillImportance';
-import { calcAutomationRiskAvoidance } from "utils/calculations";
+import {
+  calcAutomationRiskAvoidance,
+  calcProductivityAndInnovation,
+  calculateCompanySpecificImpact,
+} from 'utils/calculations';
+import { percentageImpactByIndustry } from 'utils/constants';
+import { Header } from 'components/header';
+import { ProfitInput } from 'components/profit_input';
+import { IndustrySelection } from 'components/industry_selection';
+import { AiMaturitySelection } from 'components/ai_maturity_selection';
+import { Results } from 'components/results';
 
 const availableIndustries = [
   'human health and social work activities',
   'information and communication',
   'education',
 ];
-const capitalize = (s) => (s && s[0].toUpperCase() + s.slice(1)) || '';
+const capitalize = (s: string) => (s && s[0].toUpperCase() + s.slice(1)) || '';
 export const OccupationTransitionRoi = ({
   accessToken = 'accessToken',
 }: OccupationTransitionRoiProps) => {
@@ -38,6 +39,14 @@ export const OccupationTransitionRoi = ({
   const showGraph = useMemo(() => {
     return !!industries && !!futureSkillImportances && !!industryTrendingSkills;
   }, [industries, futureSkillImportances, industryTrendingSkills]);
+  const industryId = useMemo(() => {
+    return (
+      !!industries &&
+      industries.find(
+        (industryItem: any) => industryItem.name === capitalize(industry)
+      ).id
+    );
+  }, [industries, industry]);
 
   useEffect(() => {
     callIndustries({ accessToken: accessToken }).then((data) => {
@@ -46,10 +55,8 @@ export const OccupationTransitionRoi = ({
   }, []);
 
   useEffect(() => {
-    if (!!industries && industry) {
-      const industryId = industries.find(
-        (industryItem: any) => industryItem.name === capitalize(industry)
-      ).id;
+    if (!!industries && !!industryId) {
+      setIndustryTrendingSkills(undefined);
       callIndustryTrendingSkills({
         accessToken: accessToken,
         industry: industryId,
@@ -57,10 +64,11 @@ export const OccupationTransitionRoi = ({
         setIndustryTrendingSkills(data);
       });
     }
-  }, [industry, industries]);
+  }, [industryId, industries]);
 
   useEffect(() => {
     if (!!industryTrendingSkills) {
+      setFutureSkillImportances(undefined);
       const skillIds: string[] = industryTrendingSkills.map(
         (skill: { id: string }) => skill.id
       );
@@ -85,64 +93,72 @@ export const OccupationTransitionRoi = ({
 
   const aiMaturityLevels = [1, 2, 3, 4, 5].map((level: number) => {
     return {
-      icon: 'user-astronaut-regular',
+      icon: 'tools-regular',
       labelText: `${level}`,
       value: `${level}`,
     };
   });
 
   const graphData = useMemo(() => {
-    const automationRiskThreshold =
-      futureSkillImportances.future_proof_threshold;
-    const skillScores =
-      futureSkillImportances.skill_future_importance_scores.map(
-        (skill: { future_importance_score: number }) =>
-          skill.future_importance_score
+    if (industryId && profit && aiMaturity && futureSkillImportances) {
+      const automationRiskThreshold =
+        futureSkillImportances.future_proof_threshold;
+      const skillScores =
+        futureSkillImportances.skill_future_importance_scores.map(
+          (skill: { future_importance_score: number }) =>
+            skill.future_importance_score
+        );
+      const automationRiskAvoidance = calcAutomationRiskAvoidance(
+        profit,
+        aiMaturity,
+        automationRiskThreshold,
+        skillScores
       );
-    const automationRiskAvoidance = calcAutomationRiskAvoidance(
-      profit,
-      aiMaturity,
-      automationRiskThreshold,
-      skillScores
-    );
-    const companySpecificImpact = 0;
-    return [automationRiskAvoidance, 0, 0, companySpecificImpact];
-  }, []);
+      const industryPercentImpact = percentageImpactByIndustry.find(
+        (kv: { key: string; value: number }) => kv.key === industryId
+      ).value;
+      const companySpecificImpact = calculateCompanySpecificImpact(
+        industryPercentImpact,
+        profit,
+        aiMaturity
+      );
+      const [productivity, innovation] = calcProductivityAndInnovation(
+        capitalize(industry),
+        profit
+      );
+
+      return [
+        automationRiskAvoidance,
+        productivity,
+        innovation,
+        companySpecificImpact,
+      ];
+    }
+    return [0, 0, 0, 0];
+  }, [industry, industryId, profit, aiMaturity, futureSkillImportances]);
 
   return (
     <Theme theme="workforce">
       <Wrapper>
-        <Typography
-          component="h1"
-          variant="displayXLBold"
-          hasDefaultParagraphSpacing
-        >
-          Occupation Transitions ROI
-        </Typography>
-        <TextInput
-          id="profit"
-          name="Company Profit"
-          label="Company Profit"
-          type="number"
+        <Header />
+        <ProfitInput
           value={profit}
-          onChange={(value: string) => setProfit(value)}
+          onChange={(value: string) => setProfit(Number(value))}
         />
-        <SegmentedControl
-          aria-label="Choose your idustry"
+        <IndustrySelection
           items={industriesToSegmentedItems()}
           selectedValue={industry}
           onChange={(size: string) => setIndustry(size)}
         />
-        <SegmentedControl
-          aria-label="Choose your AI Maturity Level"
+        <AiMaturitySelection
           items={aiMaturityLevels}
           selectedValue={aiMaturity}
           onChange={(level: string) => setAiMaturity(level)}
         />
-        {/*{!showGraph && <FeedbackState variant="loading" />}*/}
-        <BarGraph
-          data={{ name: industry, data: [1, 5, 6, 7] }}
+        <Results
           loading={!showGraph}
+          industryName={capitalize(industry)}
+          graphData={graphData}
         />
       </Wrapper>
     </Theme>

@@ -1,25 +1,12 @@
+import jsonData from '../assets/randomized_industry_group_tasks_final.json';
+
 export const calcAutomationRiskAvoidance = (
   profit: number,
   aiMaturity: string,
   automationRiskThreshold: number,
   skillScores: number[]
-): { profitGenerated: number } => {
-  // try {
-  // Fetch trending skills data
-  // const trendingSkillsResponse = await axios.get(trendingSkillsUrl);
-  // const trendingSkillsData = trendingSkillsResponse.data;
-  // const skillIdsTrending: string[] = trendingSkillsData.map((item: { id: string }) => item.id);
-  //
-  // // Payload for future skills importance request
-  // const payload = { skill_ids: skillIdsTrending };
-  //
-  // // Post request for future skills importance
-  // const automatedRiskRequest = await axios.post(futureSkillsImportanceUrl, payload);
-  // const automationRiskJson = automatedRiskRequest.data;
-  // const threshold = automationRiskJson.future_proof_threshold;
-
+): number => {
   // Extract scores and compute average
-  // const skillScores = automationRiskJson.skill_future_importance_scores.map((skill: { future_importance_score: number }) => skill.future_importance_score);
   const averageScore =
     skillScores.reduce((acc: number, score: number) => acc + score, 0) /
     skillScores.length;
@@ -29,9 +16,9 @@ export const calcAutomationRiskAvoidance = (
 
   // Calculation of adjusted risk
   const adjustedRisk = difference / parseFloat(aiMaturity);
-  const profitGenerated = adjustedRisk * -1 * profit;
+  const profitGenerated = ((adjustedRisk * -1) / 100) * profit;
 
-  return { profitGenerated };
+  return Math.round(profitGenerated);
 };
 
 export const calculateCompanySpecificImpact = (
@@ -39,18 +26,6 @@ export const calculateCompanySpecificImpact = (
   profit: number,
   aiMaturity: string
 ): number => {
-
-  // try {
-  // const response = await axios.get(url, { headers });
-  // const industryJson = response.data;
-  //
-  // // Extracting ids and names into separate lists
-  // const ids: string[] = industryJson.map((entry: { id: string }) => entry.id);
-  //
-  // // Industry Impact
-  // const industryPercentageImpactList: number[] = [5,5,80,5,10,10,10,10,80,50,70,60,50,80,20,33,33,40,50,20,20,33];
-  // const idIndex = ids.indexOf(industry);
-
   const companyIndustryImpact =
     industryPercentageImpact / parseInt(aiMaturity) / 100;
 
@@ -70,5 +45,31 @@ export const calculateCompanySpecificImpact = (
   const companySpecificImpact =
     (companyIndustryImpact + companySizeImpact) * profit;
 
-  return companySpecificImpact;
+  return Math.round(companySpecificImpact);
+};
+
+export const calcProductivityAndInnovation = (
+  industry: string,
+  profit: number
+): number[] => {
+  const industryData = jsonData.filter((data) => data.industry === industry);
+  const profitableIndustryData = industryData
+    .filter((data) => data.profitable)
+    .map((data) => parseFloat(data.percent_difference.replace('%', '')));
+  const unprofitableIndustryData = industryData
+    .filter((data) => !data.profitable)
+    .map((data) => parseFloat(data.percent_difference.replace('%', '')));
+
+  const profitablePercentDiffAvg =
+    profitableIndustryData.reduce((acc, val) => acc + Math.abs(val)) /
+    profitableIndustryData.length;
+
+  const unprofitablePercentDiffAvg =
+    unprofitableIndustryData.reduce((acc, val) => acc + Math.abs(val)) /
+    unprofitableIndustryData.length;
+
+  const productivity = (unprofitablePercentDiffAvg / 100) * profit;
+  const incrementalInnocation = (profitablePercentDiffAvg / 100) * profit;
+
+  return [Math.round(productivity), Math.round(incrementalInnocation)];
 };

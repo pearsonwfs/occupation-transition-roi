@@ -1,17 +1,18 @@
 import HighchartsReact from 'highcharts-react-official';
 import Highcharts from 'highcharts/highstock';
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from 'react';
 
 type ChartProps = {
   data: ChartData;
   loading: boolean;
+  className?: any;
 };
 
 type ChartData = {
   name: string;
   data: Array<number>;
 };
-export const BarGraph = ({ data, loading }: ChartProps) => {
+export const BarGraph = ({ data, loading, className }: ChartProps) => {
   const chartRef = useRef(null);
   const getOptions = (series: ChartData) => {
     return {
@@ -38,11 +39,12 @@ export const BarGraph = ({ data, loading }: ChartProps) => {
       yAxis: {
         min: 0,
         title: {
-          text: '%',
+          text: 'Profit ($ Millions)',
         },
       },
       tooltip: {
-        valueSuffix: ' %',
+        valuePrefix: '$',
+        valueSuffix: ' Million',
       },
       plotOptions: {
         column: {
@@ -78,7 +80,7 @@ export const BarGraph = ({ data, loading }: ChartProps) => {
   }, [loading, chartRef.current]);
 
   return (
-    <div className="line_chart_label-container">
+    <div className={className}>
       <HighchartsReact
         containerProps={{ style: { display: 'flex' } }}
         highcharts={Highcharts}

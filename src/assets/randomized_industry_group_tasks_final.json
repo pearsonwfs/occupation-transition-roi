@@ -1,0 +1,1154 @@
+[
+    {
+        "industry":"Information and communication",
+        "task_group":"Adjust equipment to ensure adequate performance.",
+        "task_present":0.298905605,
+        "task_future":0.1903330294,
+        "percent_difference":"-36%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Adjust medical equipment to ensure adequate performance.",
+        "task_present":0.10172393,
+        "task_future":0.07,
+        "percent_difference":"-32%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Administer basic health care or medical treatments.",
+        "task_present":0.527926555,
+        "task_future":0.3463373758,
+        "percent_difference":"-34%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Administer diagnostic tests to assess patient health.",
+        "task_present":0.121455789,
+        "task_future":0.1255504729,
+        "percent_difference":"3%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Administer therapeutic treatments.",
+        "task_present":0.260025963,
+        "task_future":0.2862711868,
+        "percent_difference":"10%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Advise others on educational or vocational matters.",
+        "task_present":0.15127479,
+        "task_future":0.1575739077,
+        "percent_difference":"4%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Advise others on workplace health or safety issues.",
+        "task_present":0.037227998,
+        "task_future":0.04,
+        "percent_difference":"2%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Analyze biological or chemical substances or related data.",
+        "task_present":0.124671009,
+        "task_future":0.1575696239,
+        "percent_difference":"26%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Analyze data to improve operations.",
+        "task_present":0.012272809,
+        "task_future":0.0149798655,
+        "percent_difference":"22%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Analyze environmental or geospatial data.",
+        "task_present":0.073982029,
+        "task_future":0.09,
+        "percent_difference":"21%",
+        "profitable":true
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Analyze health or medical data.",
+        "task_present":0.041475225,
+        "task_future":0.05,
+        "percent_difference":"28%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Apply protective solutions or coatings.",
+        "task_present":0.055496132,
+        "task_future":0.06,
+        "percent_difference":"4%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Assemble equipment or components.",
+        "task_present":0.079379722,
+        "task_future":0.0499303153,
+        "percent_difference":"-37%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Assess characteristics of land or property.",
+        "task_present":0.010054973,
+        "task_future":0.01,
+        "percent_difference":"-5%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Assess student capabilities, needs, or performance.",
+        "task_present":0.288915725,
+        "task_future":0.3320387147,
+        "percent_difference":"15%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Assist healthcare practitioners during medical procedures.",
+        "task_present":0.455357037,
+        "task_future":0.5,
+        "percent_difference":"9%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Assist individuals with special needs.",
+        "task_present":0.990837271,
+        "task_future":1.0666660141,
+        "percent_difference":"8%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Assist others to access additional services or resources.",
+        "task_present":0.042494964,
+        "task_future":0.04,
+        "percent_difference":"-14%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Assist scientists, scholars, or technical specialists with projects or research.",
+        "task_present":0.015637027,
+        "task_future":0.02,
+        "percent_difference":"26%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Clean medical equipment or facilities.",
+        "task_present":0.138828782,
+        "task_future":0.09,
+        "percent_difference":"-36%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Clean tools, equipment, facilities, or work areas.",
+        "task_present":1.0976499,
+        "task_future":0.7461871285,
+        "percent_difference":"-32%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Clean workpieces, finished products, or other objects.",
+        "task_present":0.163980008,
+        "task_future":0.177170669,
+        "percent_difference":"8%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Collaborate in the development of educational programs.",
+        "task_present":0.188507592,
+        "task_future":0.114967316,
+        "percent_difference":"-39%",
+        "profitable":true
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Collect environmental or biological samples.",
+        "task_present":0.139589833,
+        "task_future":0.15,
+        "percent_difference":"11%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Collect fares or payments.",
+        "task_present":0.154724852,
+        "task_future":0.1379422237,
+        "percent_difference":"-11%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Collect information about patients or clients.",
+        "task_present":0.331647482,
+        "task_future":0.3587882945,
+        "percent_difference":"8%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Communicate with others about operational plans or activities.",
+        "task_present":0.153983703,
+        "task_future":0.139704442,
+        "percent_difference":"-9%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Compile records, documentation, or other data.",
+        "task_present":0.027750263,
+        "task_future":0.04,
+        "percent_difference":"30%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Confer with healthcare or other professionals about patient care.",
+        "task_present":0.156821606,
+        "task_future":0.1523649375,
+        "percent_difference":"-3%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Connect components or supply lines to equipment or tools.",
+        "task_present":0.031443103,
+        "task_future":0.02,
+        "percent_difference":"-31%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Coordinate group, community, or public activities.",
+        "task_present":0.013691213,
+        "task_future":0.0143589538,
+        "percent_difference":"5%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Coordinate with others to resolve problems.",
+        "task_present":0.006907737,
+        "task_future":0.01,
+        "percent_difference":"-15%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Counsel others about personal matters.",
+        "task_present":0.092584608,
+        "task_future":0.09,
+        "percent_difference":"2%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Create visual designs or displays.",
+        "task_present":0.74623074,
+        "task_future":0.8008950929,
+        "percent_difference":"7%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Cut trees or other vegetation.",
+        "task_present":0.442758105,
+        "task_future":0.4299291058,
+        "percent_difference":"-3%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Design databases.",
+        "task_present":0.004434594,
+        "task_future":0.01,
+        "percent_difference":"28%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Design materials or devices.",
+        "task_present":0.40850755,
+        "task_future":0.47,
+        "percent_difference":"15%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Determine operational methods or procedures.",
+        "task_present":0.375062203,
+        "task_future":0.3721937674,
+        "percent_difference":"-1%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Determine resource needs of projects or operations.",
+        "task_present":0.005620788,
+        "task_future":0.0,
+        "percent_difference":"-12%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Determine values or prices of goods or services.",
+        "task_present":0.016102922,
+        "task_future":0.014670699,
+        "percent_difference":"-9%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Develop educational programs, plans, or procedures.",
+        "task_present":1.183496519,
+        "task_future":1.3267648512,
+        "percent_difference":"12%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Develop operational or technical procedures or standards.",
+        "task_present":0.024339396,
+        "task_future":0.0298655441,
+        "percent_difference":"23%",
+        "profitable":true
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Develop organizational or program goals or objectives.",
+        "task_present":0.052679902,
+        "task_future":0.05,
+        "percent_difference":"-6%",
+        "profitable":true
+    },
+    {
+        "industry":"Education",
+        "task_group":"Develop organizational policies, systems, or processes.",
+        "task_present":0.031180238,
+        "task_future":0.03,
+        "percent_difference":"-5%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Develop recipes or menus.",
+        "task_present":0.036293221,
+        "task_future":0.04,
+        "percent_difference":"10%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Develop research plans or methodologies.",
+        "task_present":0.089439738,
+        "task_future":0.08,
+        "percent_difference":"-15%",
+        "profitable":true
+    },
+    {
+        "industry":"Education",
+        "task_group":"Develop safety standards, policies, or procedures.",
+        "task_present":0.330311173,
+        "task_future":0.3244000181,
+        "percent_difference":"-2%",
+        "profitable":true
+    },
+    {
+        "industry":"Education",
+        "task_group":"Direct organizational operations, activities, or procedures.",
+        "task_present":0.327477926,
+        "task_future":0.3132912784,
+        "percent_difference":"-4%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Direct scientific or technical activities.",
+        "task_present":0.141839311,
+        "task_future":0.1749176271,
+        "percent_difference":"23%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Direct security or safety activities or operations.",
+        "task_present":0.016585055,
+        "task_future":0.0147555852,
+        "percent_difference":"-11%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Dispose of waste or debris.",
+        "task_present":0.043516985,
+        "task_future":0.04,
+        "percent_difference":"-7%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Escort others.",
+        "task_present":0.109165741,
+        "task_future":0.1191698507,
+        "percent_difference":"9%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Estimate project development or operational costs.",
+        "task_present":0.029973256,
+        "task_future":0.0298625244,
+        "percent_difference":"0%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Evaluate designs, specifications, or other technical data.",
+        "task_present":0.078243834,
+        "task_future":0.09,
+        "percent_difference":"21%",
+        "profitable":true
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Evaluate patient or client condition or treatment options.",
+        "task_present":0.17014895,
+        "task_future":0.1947873952,
+        "percent_difference":"14%",
+        "profitable":true
+    },
+    {
+        "industry":"Education",
+        "task_group":"Evaluate personnel capabilities or performance.",
+        "task_present":0.092374662,
+        "task_future":0.08,
+        "percent_difference":"-10%",
+        "profitable":true
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Evaluate production inputs or outputs.",
+        "task_present":0.154222084,
+        "task_future":0.11,
+        "percent_difference":"-31%",
+        "profitable":true
+    },
+    {
+        "industry":"Education",
+        "task_group":"Evaluate programs, practices, or processes.",
+        "task_present":0.018230931,
+        "task_future":0.0179398058,
+        "percent_difference":"-2%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Evaluate the characteristics, usefulness, or performance of products or technologies.",
+        "task_present":0.008835068,
+        "task_future":0.01,
+        "percent_difference":"-11%",
+        "profitable":true
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Evaluate the quality or accuracy of data.",
+        "task_present":0.205436293,
+        "task_future":0.2573230369,
+        "percent_difference":"25%",
+        "profitable":true
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Examine people or animals to assess health conditions or physical characteristics.",
+        "task_present":0.157056792,
+        "task_future":0.09,
+        "percent_difference":"-40%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Execute financial transactions.",
+        "task_present":0.236688082,
+        "task_future":0.2237393097,
+        "percent_difference":"-5%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Explain medical information to patients or family members.",
+        "task_present":0.182681451,
+        "task_future":0.182079109,
+        "percent_difference":"0%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Explain regulations, policies, or procedures.",
+        "task_present":0.035737157,
+        "task_future":0.031094299,
+        "percent_difference":"-13%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Explain technical details of products or services.",
+        "task_present":0.015806345,
+        "task_future":0.0199155154,
+        "percent_difference":"26%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Fabricate medical devices.",
+        "task_present":0.272997205,
+        "task_future":0.2871346033,
+        "percent_difference":"5%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Fit assistive devices to patients or clients.",
+        "task_present":0.014096851,
+        "task_future":0.0147667289,
+        "percent_difference":"5%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Inspect commercial, industrial, or production systems or equipment.",
+        "task_present":0.178644843,
+        "task_future":0.1076975723,
+        "percent_difference":"-40%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Inspect completed work or finished products.",
+        "task_present":0.039024798,
+        "task_future":0.0398686606,
+        "percent_difference":"2%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Inspect facilities or equipment.",
+        "task_present":0.088508714,
+        "task_future":0.05,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Inspect vehicles.",
+        "task_present":0.091340301,
+        "task_future":0.09,
+        "percent_difference":"-5%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Install commercial or production equipment.",
+        "task_present":0.006559834,
+        "task_future":0.0,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Interview people to obtain information.",
+        "task_present":0.059457695,
+        "task_future":0.0619298247,
+        "percent_difference":"4%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Load products, materials, or equipment for transportation or further processing.",
+        "task_present":0.206357096,
+        "task_future":0.127478855,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Maintain current knowledge in area of expertise.",
+        "task_present":0.147609094,
+        "task_future":0.1468160505,
+        "percent_difference":"-1%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Maintain health or medical records.",
+        "task_present":0.678892907,
+        "task_future":0.6317163424,
+        "percent_difference":"-7%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Maintain medical equipment or instruments.",
+        "task_present":0.095644329,
+        "task_future":0.06,
+        "percent_difference":"-36%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Maintain operational records.",
+        "task_present":1.107070559,
+        "task_future":0.9557155104,
+        "percent_difference":"-14%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Maintain sales or financial records.",
+        "task_present":0.119620277,
+        "task_future":0.1189164113,
+        "percent_difference":"-1%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Maintain tools or equipment.",
+        "task_present":0.207304024,
+        "task_future":0.1302673172,
+        "percent_difference":"-37%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Maintain vehicles in working condition.",
+        "task_present":0.209773025,
+        "task_future":0.2019468125,
+        "percent_difference":"-4%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Mark materials or objects for identification.",
+        "task_present":0.09946608,
+        "task_future":0.1,
+        "percent_difference":"0%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Measure physical characteristics of materials, products, or equipment.",
+        "task_present":0.330728229,
+        "task_future":0.2167124558,
+        "percent_difference":"-34%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Monitor equipment operation.",
+        "task_present":0.455693724,
+        "task_future":0.2866334804,
+        "percent_difference":"-37%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Monitor health conditions of humans or animals.",
+        "task_present":0.71645659,
+        "task_future":0.6182787553,
+        "percent_difference":"-14%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Monitor individual behavior or performance.",
+        "task_present":0.486620223,
+        "task_future":0.5152076446,
+        "percent_difference":"6%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Monitor operations to ensure adequate performance.",
+        "task_present":0.218515568,
+        "task_future":0.2192055602,
+        "percent_difference":"0%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Monitor resources or inventories.",
+        "task_present":0.032271818,
+        "task_future":0.03,
+        "percent_difference":"-11%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Monitor safety or security of work areas, facilities, or properties.",
+        "task_present":0.219043821,
+        "task_future":0.2147281869,
+        "percent_difference":"-2%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Move materials, equipment, or supplies.",
+        "task_present":0.098259099,
+        "task_future":0.07,
+        "percent_difference":"-31%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Operate agricultural or forestry equipment.",
+        "task_present":0.037397436,
+        "task_future":0.02,
+        "percent_difference":"-35%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Operate computer systems or computerized equipment.",
+        "task_present":0.082346799,
+        "task_future":0.05,
+        "percent_difference":"-37%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Operate laboratory or field equipment.",
+        "task_present":0.042506441,
+        "task_future":0.03,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Operate medical equipment.",
+        "task_present":0.372827948,
+        "task_future":0.2459888709,
+        "percent_difference":"-34%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Operate pumping systems or equipment.",
+        "task_present":0.179803756,
+        "task_future":0.1119963565,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Operate transportation equipment or vehicles.",
+        "task_present":0.27759089,
+        "task_future":0.1938581737,
+        "percent_difference":"-30%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Package objects.",
+        "task_present":0.207499423,
+        "task_future":0.1815091069,
+        "percent_difference":"-13%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Perform administrative or clerical activities.",
+        "task_present":0.186438184,
+        "task_future":0.1600176041,
+        "percent_difference":"-14%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Plan work activities.",
+        "task_present":0.057723425,
+        "task_future":0.0596173946,
+        "percent_difference":"3%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Position workpieces or materials on equipment.",
+        "task_present":0.055570962,
+        "task_future":0.04,
+        "percent_difference":"-35%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Prepare foods or beverages.",
+        "task_present":0.241742792,
+        "task_future":0.2268541478,
+        "percent_difference":"-6%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Prepare health or medical documents.",
+        "task_present":0.226796688,
+        "task_future":0.2472962207,
+        "percent_difference":"9%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Prepare informational or instructional materials.",
+        "task_present":0.490851449,
+        "task_future":0.456406441,
+        "percent_difference":"-7%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Prepare medical equipment or work areas for use.",
+        "task_present":0.278225142,
+        "task_future":0.1850273912,
+        "percent_difference":"-33%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Prepare proposals or grant applications.",
+        "task_present":0.004046626,
+        "task_future":0.0,
+        "percent_difference":"-7%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Prepare reports of operational or procedural activities.",
+        "task_present":0.082244119,
+        "task_future":0.09,
+        "percent_difference":"10%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Prepare specimens or materials for testing.",
+        "task_present":0.051191597,
+        "task_future":0.05,
+        "percent_difference":"7%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Present research or technical information.",
+        "task_present":0.106353046,
+        "task_future":0.1354004347,
+        "percent_difference":"27%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Promote products, services, or programs.",
+        "task_present":0.000972389,
+        "task_future":0.0,
+        "percent_difference":"6%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Provide food or beverage services.",
+        "task_present":0.081453732,
+        "task_future":0.08,
+        "percent_difference":"-6%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Provide general assistance to others, such as customers, patrons, or motorists.",
+        "task_present":0.124320887,
+        "task_future":0.1101719029,
+        "percent_difference":"-11%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Provide information to guests, clients, or customers.",
+        "task_present":0.14352056,
+        "task_future":0.1298916028,
+        "percent_difference":"-9%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Provide support or encouragement to others.",
+        "task_present":0.2644203,
+        "task_future":0.2528735885,
+        "percent_difference":"-4%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Purchase goods or services.",
+        "task_present":0.169256145,
+        "task_future":0.1554866813,
+        "percent_difference":"-8%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Read documents or materials to inform work processes.",
+        "task_present":0.092525019,
+        "task_future":0.100236659,
+        "percent_difference":"8%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Reconcile financial data.",
+        "task_present":0.044120127,
+        "task_future":0.0532108657,
+        "percent_difference":"21%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Remove workpieces from production equipment.",
+        "task_present":0.101241628,
+        "task_future":0.07,
+        "percent_difference":"-32%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Repair tools or equipment.",
+        "task_present":0.020119076,
+        "task_future":0.0125114717,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Replenish inventories of materials, equipment, or products.",
+        "task_present":0.127021308,
+        "task_future":0.09,
+        "percent_difference":"-33%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Research agricultural processes or practices.",
+        "task_present":0.006304624,
+        "task_future":0.01,
+        "percent_difference":"-11%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Research biological or ecological phenomena.",
+        "task_present":0.141740684,
+        "task_future":0.1551182383,
+        "percent_difference":"9%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Research healthcare issues.",
+        "task_present":0.00494129,
+        "task_future":0.0,
+        "percent_difference":"-5%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Schedule appointments.",
+        "task_present":0.126152157,
+        "task_future":0.1247620614,
+        "percent_difference":"-1%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Schedule operational activities.",
+        "task_present":0.050764,
+        "task_future":0.05,
+        "percent_difference":"7%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Select materials or equipment for operations or projects.",
+        "task_present":0.015701333,
+        "task_future":0.01,
+        "percent_difference":"-40%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Sell products or services.",
+        "task_present":0.117750991,
+        "task_future":0.1134817156,
+        "percent_difference":"-4%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Serve on organizational committees.",
+        "task_present":0.011981715,
+        "task_future":0.0129810357,
+        "percent_difference":"8%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Set up classrooms, facilities, educational materials, or equipment.",
+        "task_present":0.179376659,
+        "task_future":0.1229015822,
+        "percent_difference":"-31%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Set up computer systems, networks, or other information systems.",
+        "task_present":0.039698133,
+        "task_future":0.04,
+        "percent_difference":"-9%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Set up equipment.",
+        "task_present":0.075342481,
+        "task_future":0.0464102056,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Sew garments or materials.",
+        "task_present":0.06109552,
+        "task_future":0.07,
+        "percent_difference":"9%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Sort materials or products.",
+        "task_present":0.129464552,
+        "task_future":0.1417798833,
+        "percent_difference":"10%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Stock supplies or products.",
+        "task_present":0.053022283,
+        "task_future":0.05,
+        "percent_difference":"-11%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Supervise personnel activities.",
+        "task_present":0.456303675,
+        "task_future":0.48,
+        "percent_difference":"6%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Teach academic or vocational subjects.",
+        "task_present":0.369761199,
+        "task_future":0.4,
+        "percent_difference":"8%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Teach life skills.",
+        "task_present":0.555615179,
+        "task_future":0.587023772,
+        "percent_difference":"6%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Test characteristics of materials or products.",
+        "task_present":0.134622275,
+        "task_future":0.1355760565,
+        "percent_difference":"1%",
+        "profitable":false
+    },
+    {
+        "industry":"Information and communication",
+        "task_group":"Test performance of equipment or systems.",
+        "task_present":0.061308356,
+        "task_future":0.0378333327,
+        "percent_difference":"-38%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Train others on health or medical topics.",
+        "task_present":0.699615087,
+        "task_future":0.7206386876,
+        "percent_difference":"3%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Train others on operational or work procedures.",
+        "task_present":0.203848593,
+        "task_future":0.2006855755,
+        "percent_difference":"-2%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Train others to use equipment or products.",
+        "task_present":0.149355064,
+        "task_future":0.1011087015,
+        "percent_difference":"-32%",
+        "profitable":false
+    },
+    {
+        "industry":"Human health and social work activities",
+        "task_group":"Transport patients or clients.",
+        "task_present":0.10948797,
+        "task_future":0.1036856877,
+        "percent_difference":"-5%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Verify personal information.",
+        "task_present":0.084490042,
+        "task_future":0.08,
+        "percent_difference":"-5%",
+        "profitable":false
+    },
+    {
+        "industry":"Education",
+        "task_group":"Write material for artistic or commercial purposes.",
+        "task_present":0.004621173,
+        "task_future":0.0,
+        "percent_difference":"-8%",
+        "profitable":false
+    }
+]
