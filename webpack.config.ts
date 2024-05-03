@@ -31,10 +31,6 @@ const baseConfig: Configuration = {
         type: 'asset/resource',
       },
       {
-        test: /\.(json)$/i,
-        type: 'asset/resource',
-      },
-      {
         test: /\.m?js/,
         resolve: {
           fullySpecified: false,
