@@ -27,6 +27,7 @@ export const ProfitInput = ({
           name="Company Profit"
           label="Company Profit"
           type="number"
+          leftIcon="dollar-sign-regular"
           value={String(value)}
           onChange={onChange}
         />

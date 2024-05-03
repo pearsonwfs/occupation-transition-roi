@@ -16,6 +16,9 @@ import { ProfitInput } from 'components/profit_input';
 import { IndustrySelection } from 'components/industry_selection';
 import { AiMaturitySelection } from 'components/ai_maturity_selection';
 import { Results } from 'components/results';
+import { Separater } from "components/separater";
+import { StyledTaskTable } from "components/task_table";
+import { CallToAction } from "components/call_to_action";
 
 const availableIndustries = [
   'human health and social work activities',
@@ -160,6 +163,10 @@ export const OccupationTransitionRoi = ({
           industryName={capitalize(industry)}
           graphData={graphData}
         />
+        <Separater />
+        <StyledTaskTable industry={capitalize(industry)} />
+        <Separater />
+        <CallToAction />
       </Wrapper>
     </Theme>
   );

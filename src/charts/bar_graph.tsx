@@ -21,8 +21,18 @@ export const BarGraph = ({ data, loading, className }: ChartProps) => {
       },
       colors: ['#0080A7'],
       title: {
-        text: 'Improved categories with the use of AI automations',
+        text: 'Potential Profit Impact',
         align: 'left',
+        style: {
+          fontSize: '1.25em',
+        },
+      },
+      subtitle: {
+        text: 'Estimated impact of AI on four dimensions of profitability. Please see documentation for full definitions of Automation Risk Avoidance, Productivity, Incremental Innovation, and Company Specific Impact',
+        align: 'left',
+        style: {
+          fontSize: '1rem',
+        },
       },
       xAxis: {
         categories: [
