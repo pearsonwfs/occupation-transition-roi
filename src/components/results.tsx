@@ -1,14 +1,14 @@
 import { BarGraph } from '../charts/bar_graph';
-import { Typography } from '@pearsonwfs/component-library';
+import { Card, Typography } from "@pearsonwfs/component-library";
 import { ComponentWrapper } from 'components/component.styles';
 import styled from 'styled-components';
 
 const StyledBarGraph = styled(BarGraph)`
-  width: 600px;
+  width: 700px;
 `;
 
 const ResultsContrainer = styled.div`
-  margin-top: 48px;
+  margin-top: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,13 +16,16 @@ const ResultsContrainer = styled.div`
 
 interface StyledTypographyProps {
   positive?: boolean;
+  size?: number;
 }
 
 const StyledTypography = styled(Typography)<StyledTypographyProps>`
-  color: ${(props) => (props.positive ? 'limegreen' : 'unset')};
+  color: ${(props) => (props.positive ? 'forestgreen' : 'unset')};
+  text-align: ${(props) => (props.size > 10000 ? 'center' : 'left')};
+  margin-bottom: 24px;
 `;
 
-const ProfitContainer = styled.div`
+const ProfitContainer = styled(Card)`
   display: flex;
   flex-direction: column;
   margin-left: 24px;
@@ -48,19 +51,20 @@ export const Results = ({
             data={{ name: industryName, data: graphData }}
             loading={loading}
           />
-          <ProfitContainer>
+          <ProfitContainer variant="filled">
             <Typography
-              component="h4"
-              variant="displayXLBold"
+              component="h5"
+              variant="displayMBold"
               hasDefaultParagraphSpacing
             >
-              {`Net Profit Increase:`}
+              {`Net Profit Increase`}
             </Typography>
             <StyledTypography
-              component="h4"
+              component="h3"
               variant="displayXLBold"
               hasDefaultParagraphSpacing
               positive={netProfit !== 0}
+              size={netProfit}
             >
               {`$${netProfit} Million`}
             </StyledTypography>
